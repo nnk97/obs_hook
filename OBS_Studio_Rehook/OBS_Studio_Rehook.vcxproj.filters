@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="OBS_Hook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.hpp" />
+    <ClInclude Include="CommonIncludes.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3DIncludes.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="OBS_Hook.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{4b0a352e-4cbe-407e-8d24-fdce5c1ec856}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
