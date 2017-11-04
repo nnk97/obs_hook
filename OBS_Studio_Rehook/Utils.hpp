@@ -22,5 +22,5 @@ namespace Utils
 #endif
 
 	// Pattern scanning
-	std::uintptr_t FindSignatureFn(const char* szModule, const char* szSignature);
+	std::uintptr_t FindSignature(const char* szModule, const char* szSignature);
 }

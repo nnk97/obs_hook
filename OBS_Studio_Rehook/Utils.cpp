@@ -61,7 +61,7 @@ namespace Utils
 	}
 #endif
 
-	std::uintptr_t FindSignatureFn(const char* szModule, const char* szSignature)
+	std::uintptr_t FindSignature(const char* szModule, const char* szSignature)
 	{
 		auto module = GetModuleHandleA(szModule);
 
